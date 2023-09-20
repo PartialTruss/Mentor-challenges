@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+html{
+    height: 100%;
+  }
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+  }
+.info-background{
+ background: url(../images/bg-pattern-desktop.svg);
+ background-size: cover;
+ padding: 0 5rem 0 5rem !important;
+ }
+  .header-info{
+    margin-top: 7rem !important;
+  }
+
+  .email__input{
+    border-color: hsl(0, 36%, 70%) !important;
+  }
+  
+  .form-control:focus{
+   color: black;
+   background-color: white;
+   border-color: inherit;
+   outline: 0;
+   box-shadow: none;
+  }
+
+  .submit__button{
+    position: relative;
+    left: 80.9%;
+    bottom:50%;
+    padding: 0.7rem 2rem 0.7rem 2rem !important;
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    }
+  
+  .main-row{
+    margin: 3rem !important;
+  }
+
+  @media only screen and (max-width: 600px){
+
+    .main-row{
+      margin: 0.7rem !important;
+    }
+    .header-info{
+      margin-top: 3rem !important;
+    }
+    .info-background{
+      padding: 0 0.3rem 0 0.4rem !important;
+    }
+  }
+    

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="CSS/index.css" />
+  </head>
+  <body>
+    <div class="container-fluid d-xxl-flex justify-content-xxl-center d-flex justify-content-center">
+      <div class="col-xxl-12 col-11">
+        <div class="row row-cols-1 main-row shadow">
+          <div class="col-xxl-8 text-start info-background">
+            <img
+              src="images/logo.svg"
+              alt=""
+              style="width: 20%"
+              class="mt-xxl-4 d-none d-xxl-block"
+            />
+            <h1 class="text-xxl-start text-center header-info">
+              <span class="" style="color: hsl(0, 36%, 70%)"
+                >W E ' R E <br /></span
+              ><span class="fw-bolder"
+                >C O M I N G <br />
+                S O O N</span
+              >
+            </h1>
+            <p class="mt-xxl-4 mt-2" style="color: hsl(0, 36%, 70%)">
+              Hello fellow shoppers! We're currently building our new
+              <br />fashion store. Add your email below to stay up-to-date with
+              <br />announcements and our launch deals.
+            </p>
+            <form
+              class="row d-xxl-flex justify-content-xxl-start needs-validation"
+              novalidate
+            >
+              <div class="col-xxl-6 col-11 mt-xxl-4 mt-3">
+                <label for="E-mail" class="form-label visually-hidden"></label>
+                <input
+                  type="email"
+                  class="form-control focus-ring-danger w-100 p-2 ps-4 rounded-5 email__input border-2"
+                  id="E-mail"
+                  placeholder="Email Address"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid email
+                </div>
+                <button class="rounded-5 submit__button border-0" type="submit">
+                  <img src="images/icon-arrow.svg" alt="" class="Move-Image" />
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-xxl-4 col-12 right-side-image order-first order-xxl-last">
+            <img
+              src="images/logo.svg"
+              alt=""
+              style="width: 25%"
+              class="mt-xxl-4 d-xxl-none d-block"
+            />
+            <img src="images/hero-desktop.jpg" alt="" class="w-100 mt-xxl-0 mt-2 hero-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/JS/index.js"></script>
+  </body>
+</html>
