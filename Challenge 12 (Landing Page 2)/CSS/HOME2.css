@@ -1,0 +1,62 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+  h1,h2,h3,h4,h5{
+    font-family: Poppins ;
+  }
+
+  p{
+    font-family: Open Sans;
+  }
+
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+  font-size: 18px;
+}
+
+.header-one{
+    margin-top: 10rem !important;
+}
+
+.Try-Free-btn{
+    width: 115%;
+}
+.demo-button{
+    width: 60% ;
+    background-color: hsl(322, 100%, 66%);
+}
+
+.demo-button:hover{
+  background-color: hsl(322, 87%, 76%);
+}
+
+.footer-section{
+  margin-top: 15rem !important;
+}
+
+.footer-box{
+  margin-top: -4rem !important;
+}
+
+
+@media only screen and (max-width: 600px){
+
+  /* .Try-Free-btn{
+    width: 100%;
+  } */
+
+  /* .Logo-size{
+    width: 20% !important;
+  } */
+  
+}
