@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+
+
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+html{
+    height: 100%;
+}
+body{
+    font-family: Open Sans;
+}
+
+.Logo-size{
+    width: 10%;
+}
+
+main{
+    background-color:  hsl(240, 75%, 98%);
+ }
+
+
+.btn-primary-demo{
+    background-color: hsl(224, 93%, 58%);
+}
+
+.btn-primary-demo:hover{
+    background-color: hsl(224, 91%, 66%);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Raleway;
+}
+
+.border-bottom-green{
+    border-bottom:  2px solid hsl(170, 45%, 43%);
+}
+.footer-list > li :hover {
+    color: hsl(243, 50%, 49%) !important;
+}
+
+.Upper-Footer{
+    background-color: hsl(238, 22%, 44%);
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .Logo-size{
+        width: 20%;
+    }
+    
+  }
