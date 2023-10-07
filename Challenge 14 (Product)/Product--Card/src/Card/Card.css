@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins:wght@400;600&display=swap');
+
+html{
+    height: 100%;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.main-container__all{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.main-container__image{
+    width: 18%;
+    border-radius: 7px 0px 0px 7px;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.main-container__image--mobile{
+    display: none;
+}
+
+.main-container-description__heading--first{
+    font-family: Fraunces;
+    font-size:x-large;
+}
+
+.main-container-description{
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    width: 18%;
+    padding: 22px;
+    border-radius: 0px 7px 7px 0px;
+    background-color: #ffff;
+}
+
+/* animation */
+
+@keyframes fadeInAnimation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+.bold-price{
+    color: hsl(158, 36%, 37%);
+    font-family: Fraunces ;
+    font-size:x-large;
+}
+
+.small-price{
+    text-decoration: line-through;
+    position: relative;
+    left: 1rem;
+    bottom:0.5rem;
+    font-family: Fraunces ;
+    
+   
+}
+
+.font-d{
+    font-size: small;
+}
+
+.btn-text{
+    margin-left: 0.5rem;
+}
+
+
+/*
+helper classes
+*/
+
+.mt-one{
+    margin-top: 1.5rem;
+}
+
+.faded-text{
+    opacity: 0.4;
+}
+
+.faded-text-family{
+    font-family: Montserrat;
+}
+
+.block{
+    display: inline-block;
+}
+
+.price > p{
+    display: inline-block;
+
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+}
+
+.add>p{
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: hsl(158, 35%, 22%);
+}
+
+@media screen and (max-width:576px) {
+    .main-container__all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .main-container__image{
+        display: none;
+    }
+    .main-container__image--mobile{
+        display: inline;
+        width: 95%;
+        border-radius: 7px 7px 0px 0px;
+    }
+    .main-container-description{
+        width: 95%;
+        border-radius: 0px 0px 7px 7px;
+    }
+    .main-container-description h1{
+        display: inline-block;
+    }
+}
+
+
+
+
+
+
+
+
+
