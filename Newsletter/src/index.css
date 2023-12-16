@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: regular-roboto;
+  src: url(/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: bold-roboto;
+  src: url(/Roboto-Bold.ttf);
+}
+
+body {
+  background: hsl(234, 29%, 20%);
+}
+
+p {
+  font-family: regular-roboto;
+}
+h1 {
+  font-family: bold-roboto;
+}
