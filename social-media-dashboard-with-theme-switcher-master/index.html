@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/output.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body class="bg-[#1e202a]">
+    <div class="outer-container bg-[#1f212e] flex justify-center rounded-b-2xl">
+      <div class="inner-container w-4/5 p-6">
+        <div class="first-row flex justify-between">
+          <section>
+            <h1 class="top-header text-2xl font-bold text-white">
+              Social Media Dashboard
+            </h1>
+            <p class="text-[#8b97c6]">Total Followers: 23,004</p>
+          </section>
+          <section class="flex items-center gap-2">
+            <p class="text-[#8b97c6]">Dark Mode</p>
+            <div id="toggle">
+              <i class="indicator"></i>
+            </div>
+          </section>
+        </div>
+        <div class="second-row mt-10">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-9">
+            <div
+              class="Cards border-t-4 rounded-t-md border-cyan-400 bg-[#252a41] rounded-b-md"
+            >
+              <ul class="flex flex-col gap-5 items-center p-4">
+                <li class="flex items-center gap-3">
+                  <img src="images/icon-facebook.svg" alt="" />
+                  <p class="text-[#8b97c6]">@nathanf</p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <h1 class="text-6xl font-bold">1987</h1>
+                  <h2 class="mt-1 text-[#8b97c6] text-md tracking-[0.3em]">
+                    Followers
+                  </h2>
+                </li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-up.svg" alt="" class="" />
+                  <p class="text-[#1db489]">12 Today</p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="Cards border-t-4 rounded-t-md border-cyan-400 bg-[#252a41] rounded-b-md"
+            >
+              <ul class="flex flex-col gap-5 items-center p-4">
+                <li class="flex items-center gap-3">
+                  <img src="images/icon-twitter.svg" alt="" />
+                  <p class="text-[#8b97c6]">@nathanf</p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <h1 class="text-6xl font-bold">1044</h1>
+                  <h2 class="mt-1 text-[#8b97c6] text-md tracking-[0.3em]">
+                    Followers
+                  </h2>
+                </li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-up.svg" alt="" class="" />
+                  <p class="text-[#1db489]">99 Today</p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="Cards border-t-4 rounded-t-md border-[#fdc468] bg-[#252a41] rounded-b-md"
+            >
+              <ul class="flex flex-col gap-5 items-center p-4">
+                <li class="flex items-center gap-3">
+                  <img src="images/icon-instagram.svg" alt="" />
+                  <p class="text-[#8b97c6]">@realnathanf</p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <h1 class="text-6xl font-bold">11K</h1>
+                  <h2 class="mt-1 text-[#8b97c6] text-md tracking-[0.3em]">
+                    Followers
+                  </h2>
+                </li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-up.svg" alt="" class="" />
+                  <p class="text-[#1db489]">1099 Today</p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="Cards border-t-4 rounded-t-md border-[#c4032a] bg-[#252a41] rounded-b-md"
+            >
+              <ul class="flex flex-col gap-5 items-center p-4">
+                <li class="flex items-center gap-3">
+                  <img src="images/icon-youtube.svg" alt="" />
+                  <p class="text-[#8b97c6]">Nathan F.</p>
+                </li>
+                <li class="flex flex-col items-center">
+                  <h1 class="text-6xl font-bold">8239</h1>
+                  <h2 class="mt-1 text-[#8b97c6] text-md tracking-[0.3em]">
+                    Followers
+                  </h2>
+                </li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-down.svg" alt="" class="" />
+                  <p class="text-[#c4032a]">144 Today</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="outer-container-2 flex justify-center">
+      <div class="inner-container-2 w-4/5 p-6">
+        <div class="first-row">
+          <h1 class="second-header text-xl text-white font-bold">
+            Overview - Today
+          </h1>
+        </div>
+        <div class="second-row-2 mt-8">
+          <div class="grid xl:grid-cols-4 grid-cols-1 gap-9">
+            <div
+              class="Cards bg-[#252a41] h-28 px-5 flex flex-col justify-center rounded-md"
+            >
+              <ul class="flex justify-between">
+                <li><p class="text-[#8b97c6]">Page Views</p></li>
+                <li><img src="images/icon-facebook.svg" alt="" /></li>
+              </ul>
+              <ul class="mt-2 flex justify-between">
+                <li><p class="text-3xl font-bold">87</p></li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-up.svg" alt="" class="" />
+                  <p class="text-[#1db489]">3%</p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="Cards bg-[#252a41] h-28 px-5 flex flex-col justify-center rounded-md"
+            >
+              <ul class="flex justify-between">
+                <li><p class="text-[#8b97c6]">Likes</p></li>
+                <li><img src="images/icon-facebook.svg" alt="" /></li>
+              </ul>
+              <ul class="mt-2 flex justify-between">
+                <li><p class="text-3xl font-bold">52</p></li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-down.svg" alt="" class="" />
+                  <p class="text-[#c4032a]">2%</p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="Cards bg-[#252a41] h-28 px-5 flex flex-col justify-center rounded-md"
+            >
+              <ul class="flex justify-between">
+                <li><p class="text-[#8b97c6]">Likes</p></li>
+                <li><img src="images/icon-instagram.svg" alt="" /></li>
+              </ul>
+              <ul class="mt-2 flex justify-between">
+                <li><p class="text-3xl font-bold">5462</p></li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-up.svg" alt="" class="" />
+                  <p class="text-[#1db489]">2257%</p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="Cards bg-[#252a41] h-28 px-5 flex flex-col justify-center rounded-md"
+            >
+              <ul class="flex justify-between">
+                <li><p class="text-[#8b97c6]">Profile Views</p></li>
+                <li><img src="images/icon-instagram.svg" alt="" /></li>
+              </ul>
+              <ul class="mt-2 flex justify-between">
+                <li><p class="text-3xl font-bold">52K</p></li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-up.svg" alt="" class="" />
+                  <p class="text-[#1db489]">1375%</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="second-row-2 mt-4">
+          <div class="grid xl:grid-cols-4 grid-cols-1 gap-9">
+            <div
+              class="Cards bg-[#252a41] h-28 px-5 flex flex-col justify-center rounded-md"
+            >
+              <ul class="flex justify-between">
+                <li><p class="text-[#8b97c6]">Retweets</p></li>
+                <li><img src="images/icon-twitter.svg" alt="" /></li>
+              </ul>
+              <ul class="mt-2 flex justify-between">
+                <li><p class="text-3xl font-bold">117</p></li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-up.svg" alt="" class="" />
+                  <p class="text-[#1db489]">303%</p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="Cards bg-[#252a41] h-28 px-5 flex flex-col justify-center rounded-md"
+            >
+              <ul class="flex justify-between">
+                <li><p class="text-[#8b97c6]">Likes</p></li>
+                <li><img src="images/icon-twitter.svg" alt="" /></li>
+              </ul>
+              <ul class="mt-2 flex justify-between">
+                <li><p class="text-3xl font-bold">507</p></li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-up.svg" alt="" class="" />
+                  <p class="text-[#1db489]">553%</p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="Cards bg-[#252a41] h-28 px-5 flex flex-col justify-center rounded-md"
+            >
+              <ul class="flex justify-between">
+                <li><p class="text-[#8b97c6]">Likes</p></li>
+                <li><img src="images/icon-youtube.svg" alt="" /></li>
+              </ul>
+              <ul class="mt-2 flex justify-between">
+                <li><p class="text-3xl font-bold">107</p></li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-down.svg" alt="" class="" />
+                  <p class="text-[#c4032a]">-19%</p>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="Cards bg-[#252a41] h-28 px-5 flex flex-col justify-center rounded-md"
+            >
+              <ul class="flex justify-between w">
+                <li><p class="text-[#8b97c6]">Total Views</p></li>
+                <li><img src="images/icon-youtube.svg" alt="" /></li>
+              </ul>
+              <ul class="mt-2 flex justify-between">
+                <li><p class="text-3xl font-bold">1407</p></li>
+                <li class="flex items-center gap-1">
+                  <img src="images/icon-down.svg" alt="" class="" />
+                  <p class="text-[#c4032a]">12%</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script/index.js"></script>
+  </body>
+</html>

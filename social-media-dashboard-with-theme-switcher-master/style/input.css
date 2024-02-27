@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  font-size: 14px;
+}
+
+#toggle {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 30px;
+  border-radius: 2rem;
+  background: linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+#toggle .indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background: hsl(230, 17%, 14%);
+  border-radius: 50%;
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+#toggle.active .indicator {
+  left: 30px;
+  background-color: #ffff;
+}
+
+body.active {
+  background: #ffff;
+}
+
+.outer-container.active {
+  background-color: hsl(225, 100%, 98%);
+}
+
+.top-header.active {
+  color: #000;
+}
+
+.second-header.active {
+  color: hsl(228, 12%, 44%);
+}
+
+.Cards {
+  color: #fff;
+  cursor: pointer;
+}
+
+.Cards.active {
+  background: hsl(227, 47%, 96%);
+  color: #000;
+}
+
+#toggle.active {
+  background-color: hsl(228, 12%, 44%);
+}
